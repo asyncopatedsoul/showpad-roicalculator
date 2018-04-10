@@ -1,0 +1,7 @@
+{
+    "identifier": "com.arkade.airbnbhouseguide",
+    "name": "Airbnb House Guide",
+    "version": "1.0.0",
+    "description": "Interactive house guide for Airbnb guests",
+    "author": "Michael Garrido"
+}

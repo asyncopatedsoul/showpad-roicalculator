@@ -1,0 +1,22 @@
+{
+  "name": "showpad-airbnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asyncopatedsoul/showpad-airbnb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asyncopatedsoul/showpad-airbnb/issues"
+  },
+  "homepage": "https://github.com/asyncopatedsoul/showpad-airbnb",
+  "devDependencies": {
+    "@showpad/sdk": "^0.5.3"
+  }
+}
