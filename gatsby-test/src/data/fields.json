@@ -1,0 +1,12 @@
+{
+  "fields":[
+    { "cost-presales-eng":1000 },
+    { "cost-product-eng":1000 },
+    { "cost-support-eng":1000 },
+    { "cost-platform":1000 },
+    { "cost-misc":1000 },
+    { "rev-accts-won": 1000},
+    { "rev-accts-retnd":1000},
+    { "rev-accts-upgrd":1000}
+  ]
+}

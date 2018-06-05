@@ -9,6 +9,8 @@ class App
         this.setLoading(true);
         this.addUserName();
         this.setLoading(false);
+
+        console.log("Showpad init");
     }
 
     setLoading (loading) {
