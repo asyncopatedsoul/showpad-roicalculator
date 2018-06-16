@@ -3,6 +3,7 @@ import { NavLink, Route, Switch } from "react-router-dom";
 
 import AboutPage from "./AboutPage";
 import FuelSavingsPage from "./containers/FuelSavingsPage";
+import RoiCalculatorPage from "./containers/RoiCalculatorPage";
 import HomePage from "./HomePage";
 import NotFoundPage from "./NotFoundPage";
 import PropTypes from "prop-types";
@@ -23,11 +24,14 @@ class App extends React.Component {
           {' | '}
           <NavLink to="/fuel-savings" activeStyle={activeStyle}>Demo App</NavLink>
           {' | '}
+          <NavLink to="/roi-calcuator" activeStyle={activeStyle}>ROI Calculator</NavLink>
+          {' | '}
           <NavLink to="/about" activeStyle={activeStyle}>About</NavLink>
         </div>
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/fuel-savings" component={FuelSavingsPage} />
+          <Route path="/roi-calcuator" component={RoiCalculatorPage} />
           <Route path="/about" component={AboutPage} />
           <Route component={NotFoundPage} />
         </Switch>

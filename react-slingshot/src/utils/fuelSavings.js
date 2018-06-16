@@ -51,8 +51,6 @@ export function necessaryDataIsProvidedToCalculateSavings(settings) {
 export function calculateSavings(settings) {
   const monthlySavings = calculateSavingsPerMonth(settings);
 
-  console.log(loadConfigurationData());
-
   return {
     monthly: getCurrencyFormattedNumber(monthlySavings),
     annual: getCurrencyFormattedNumber(monthlySavings * 12),

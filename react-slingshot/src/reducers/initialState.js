@@ -14,5 +14,100 @@ export default {
       annual: 0,
       threeYear: 0
     }
-  }
-};
+  },
+  roiScenario:{
+    dateModified: null,
+    cnt_exp_apps:4,
+    cstmr_spprt_cnt_res: 2,
+    cstmr_spprt_days_worked: 28,
+    cstmr_spprt_cost_pr_dy: 214.29,
+    cstmr_spprt_cost_pr_yr: 80000,
+    cstmr_spprt_bandwidth_pr_dy:0.2,
+    sltn_eng_cnt_res: 2,
+    sltn_eng_days_worked: 10,
+    sltn_eng_cost_pr_dy: 342.86,
+    sltn_eng_cost_pr_yr: 120000,
+    sltn_eng_bandwidth_pr_dy:0.8,
+    prdct_eng_cnt_res: 5,
+    prdct_eng_days_worked: 28,
+    prdct_eng_cost_pr_dy: 342.86,
+    prdct_eng_cost_pr_yr: 120000,
+    prdct_eng_bandwidth_pr_dy:0.8,
+    spprt_eng_cnt_res: 2,
+    spprt_eng_days_worked: 28,
+    spprt_eng_cost_pr_dy: 342.86,
+    spprt_eng_cost_pr_yr: 120000,
+    spprt_eng_bandwidth_pr_dy:0.2,
+    mgmt_cnt_res: 1,
+    mgmt_days_worked: 28,
+    mgmt_cost_pr_dy: 342.86,
+    mgmt_bandwidth_pr_dy:0.2,
+    mgmt_cost_pr_yr: 120000,
+    pltfrm_cost_pr_mo:5000,
+    misc_cost_pr_mo:2500,
+    accts_retained_cnt_pr_yr:4,
+    accts_retained_attrbution:0.2,
+    accts_retained_avg_users:1000,
+    accts_retained_revenue_pr_user:45,
+    accts_new_cnt_pr_yr:10,
+    accts_new_attrbution:0.2,
+    accts_new_avg_users:1000,
+    accts_new_revenue_pr_user:45,
+    accts_upgrade_cnt_pr_yr:4,
+    accts_upgrade_attrbution:0.2,
+    accts_upgrade_avg_users:1000,
+    accts_upgrade_revenue_pr_user:10,
+    roiResult: {
+      grossRevenuePerYear: 0,
+      netRevenuePerYear: 0,
+      totalExpAppCostsPerYear: 0,
+      roiPerYear: 0
+    }
+  },
+  // calculator:{
+  //   comparisons:{
+  //     diff_annual_rev:[]
+  //   },
+  //   scenarios: {
+  //     default:{
+  //       variables:{
+  //         cnt_exp_apps:1,
+  //         cstmr_spprt_cnt_res: 2,
+  //         cstmr_spprt_days_worked: 28,
+  //         cstmr_spprt_cost_pr_dy: 214.29,
+  //         cstmr_spprt_cost_pr_yr: 75000,
+  //         cstmr_spprt_bandwidth_pr_dy:0.1,
+  //         sltn_eng_cnt_res: 2,
+  //         sltn_eng_days_worked: 28,
+  //         sltn_eng_cost_pr_dy: 342.86,
+  //         sltn_eng_cost_pr_yr: 120000,
+  //         mgmt_bandwidth_pr_dy:0.1,
+  //         prdct_eng_cnt_res: 2,
+  //         prdct_eng_days_worked: 28,
+  //         prdct_eng_cost_pr_dy: 342.86,
+  //         prdct_eng_cost_pr_yr: 75000,
+  //         mgmt_bandwidth_pr_dy:0.1,
+  //         mgmt_cnt_res: 1,
+  //         mgmt_days_worked: 28,
+  //         mgmt_cost_pr_dy: 342.86,
+  //         mgmt_bandwidth_pr_dy:0.1,
+  //         mgmt_cost_pr_yr: 75000,
+  //         pltfrm_cost_pr_mo:5000,
+  //         misc_cost_pr_mo:2500,
+  //         accts_retained_cnt_pr_yr:4,
+  //         accts_retained_attrbution:0.2,
+  //         accts_retained_avg_users:1000,
+  //         accts_retained_revenue_pr_user:35,
+  //         accts_new_cnt_pr_yr:4,
+  //         accts_new_attrbution:0.2,
+  //         accts_new_avg_users:1000,
+  //         accts_new_revenue_pr_user:35,
+  //         accts_upgrade_cnt_pr_yr:4,
+  //         accts_upgrade_attrbution:0.2,
+  //         accts_upgrade_avg_users:1000,
+  //         accts_upgrade_revenue_pr_user:35
+  //       }
+  //     }
+  //   }
+  // }
+}
